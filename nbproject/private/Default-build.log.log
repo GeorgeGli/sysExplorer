@@ -1,0 +1,8 @@
+cc -Wall -D_GNU_SOURCE -pthread  -finline -march=native -O3 -DNDEBUG   -I.    -c -o sysexplorer.o sysexplorer.c
+cc -Wall -D_GNU_SOURCE -pthread  -finline -march=native -O3 -DNDEBUG   -I.    -c -o linkedlist.o linkedlist.c
+cc -Wall -D_GNU_SOURCE -pthread  -finline -march=native -O3 -DNDEBUG   -I.    -c -o strutils.o strutils.c
+cc -Wall -D_GNU_SOURCE -pthread  -finline -march=native -O3 -DNDEBUG   -I.    -c -o hashtable.o hashtable.c
+cc -Wall -D_GNU_SOURCE -pthread  -finline -march=native -O3 -DNDEBUG   -I.    -c -o urldecode.o urldecode.c
+cc    -o sysexplorer sysexplorer.o linkedlist.o strutils.o hashtable.o urldecode.o -lpthread
+cc -Wall -D_GNU_SOURCE -pthread  -finline -march=native -O3 -DNDEBUG   -I.    -c -o tests.o tests.c
+cc    -o tests tests.o linkedlist.o strutils.o hashtable.o urldecode.o -lpthread

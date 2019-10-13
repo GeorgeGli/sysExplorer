@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="90">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <in>hashtable.c</in>
+      <in>linkedlist.c</in>
+      <in>strutils.c</in>
+      <in>sysexplorer.c</in>
+      <in>tests.c</in>
+      <in>urldecode.c</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+          <cTool>
+            <incDir>
+              <pElem>.</pElem>
+            </incDir>
+            <preprocessorList>
+              <Elem>NDEBUG</Elem>
+              <Elem>_GNU_SOURCE</Elem>
+              <Elem>_OPTIMIZE__=1</Elem>
+            </preprocessorList>
+            <undefinedList>
+              <Elem>__NO_INLINE__</Elem>
+            </undefinedList>
+          </cTool>
+        </makeTool>
+      </makefileType>
+      <item path="hashtable.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="linkedlist.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="strutils.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sysexplorer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="tests.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="urldecode.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
